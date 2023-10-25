@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300;400;500;600;700;800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap');
+  
+
+header{
+   background-color: rgb(41, 14, 66);
+     height: 100vh;
+     
+    
+    
+     background-size:100% 100%;
+      
+     position: relative;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+ } 
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*كل اللنكات */
+a{
+ text-decoration: none;
+}
+/*كل اللنكات */
+ header{
+    height: 100vh;
+ }
+
+  #navbar ul{
+     list-style: none;
+     display: flex;
+     flex-direction: row;
+    
+  
+}
+
+
+
+#navbar ul li a{
+   padding: 7px;
+   color: rgb(255, 255, 255);
+   font-weight:600;
+   font-size:15PX;
+   text-decoration: none;
+   
+}
+
+
+
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.142);
+    height: 50px;
+    width: 700px;
+    border-style: solid;
+    border-color: aqua;
+    box-shadow: 0 0 10px aqua;
+    border-radius: 20px;
+    margin: auto;
+    background-color: rgba(128, 128, 128, 0.274);
+}
+#navbar h2{
+    font-size: 15px;  
+    color: white;  
+    font-weight: 600;    
+    margin-left: 15PX; 
+}
+#navbar ul li a:hover{
+    font-size: 17px;
+    border-style: solid;
+    border-color:aqua;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.089);
+    margin-bottom: 8px;
+    margin:10px;
+    box-shadow: 0 0 10px aqua;
+}
+#navbar:hover{
+    width: 750px ;
+}
+li{
+    position: relative;
+    overflow: hidden;
+}
+
+
+   
